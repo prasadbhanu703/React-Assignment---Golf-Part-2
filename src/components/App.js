@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     const keyListner = (event) => {
-      console.log("bcjjbciohiowhfio");
+      // console.log("bcjjbciohiowhfio");
       if (renderBall) {
         if (event.keyCode === 37) {
           upadetXY(x - 5, y);
